@@ -99,7 +99,7 @@ def hotslogs_rating(bot, trigger):
             bot.say("{name} [{region}] - {league} [{mmr}]"
                     .format(name=name_cell.string, region=region.string, league=league.string, mmr=mmr.string))
         if count == 5:
-            bot.msg(trigger.nick, 'Here\'s the full list of " +player_name" '
+            bot.msg(trigger.nick, 'Here\'s the full list of '+player_name' '
                                   'https://www.hotslogs.com/PlayerSearch?NoRedirect=1&Name='+player_name)
 
 
